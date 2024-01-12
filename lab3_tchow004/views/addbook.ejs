@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Add book <%=shopName%></title>
+  </head>
+  <body>
+    <h1><%=shopName%>: Add book</h1>
+    <form method="POST" action="/bookadded">
+        <p>Book name: <input id="name" type="text" name="name" value="" /></p>
+        <p>Price: <input id="price" type="text" name="price" value="" /></p>
+        <input type="submit" value="Add book" />
+      </form>
+  </body>
+</html>

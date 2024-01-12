@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%=shopName%></title>
+  </head>
+	<form method="POST" action="/registered">
+	<p>First name <input id="first" type="text" name="first" value="first name" /></p>
+	<input id="last" type="text" name="last" value="last name" />
+	<input id="email" type="text" name="@outlook.com" value = "email@outlook.com"/>
+	<input type="submit" value="OK" />
+  <body>
+    <h1>Register for the <%=shopName%></h1>
+    <p>Register an account with us</p>
+res.send(' Hello '+ req.body.first + ' '+ req.body.last +' you are now registered!');
+  </body>
+</html>
